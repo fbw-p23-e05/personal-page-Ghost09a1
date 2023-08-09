@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact</title>
+        <link rel="stylesheet" href="./contact.css" />
+    </head>
+    <body>
+        <div id="home"></div>
+        <header>
+            <!-- Nav -->
+            <nav>
+                <ul>
+                    <li><a href="./Thorium-TMSR.html">Home</a></li>
+                    <li><a href="./Thorium-TMSR.html#home">About</a></li>
+                    <li><a href="./Thorium-TMSR.html#History">History</a></li>
+                    <li><a href="./Thorium-TMSR.html#Design">Design</a></li>
+                    <li>
+                        <a href="./Thorium-TMSR.html#Pros&Cons">Pros & Cons</a>
+                    </li>
+                    <li>
+                        <a href="./Thorium-TMSR.html#references">References</a>
+                    </li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h2>Kontaktiere uns</h2>
+            <!--Mailto Function-->
+            <div>
+                <form action="mailto:ghost09a1@googlemail.com" method="post">
+                    <br /><br />
+                    <!-- Namebox -->
+                    <input
+                        type="text"
+                        name="name"
+                        id="n"
+                        required
+                        placeholder="Name"
+                    /><br /><br />
+                    <!-- email Box -->
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        required
+                        placeholder="E-Mail"
+                    /><br /><br />
+                    <!-- Selector-->
+                    <select name="Topic" id="topic">
+                        <option value="">Choose your E-Subject</option>
+                        <option value="">About the Thorium Foundation</option>
+                        <option value="">Questions about TMSR</option>
+                        <option value="">Seminar Request</option>
+                        <option value="">Donation</option></select
+                    ><br /><br />
+                    <!-- Textbox -->
+                    <textarea
+                        name="Message"
+                        id="nr"
+                        required
+                        placeholder="Your Message"
+                    ></textarea
+                    ><br /><br />
+                    <!-- Send Button -->
+                    <input class="Button" type="submit" value="Send" />
+                    <br /><br /><br />
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
+
